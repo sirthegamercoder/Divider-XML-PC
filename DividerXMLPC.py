@@ -1,5 +1,6 @@
 import os
 import xml.etree.ElementTree as ET
+import webbrowser
 
 def main():
     ### USER INPUT FOR FILE PATHS ###
@@ -52,6 +53,13 @@ def main():
         print("File Converted Successfully!")
         print(f"INPUT='{os.path.abspath(input_file)}'")
         print(f"OUTPUT='{os.path.abspath(output_file)}'")
+
+        ### USER CHOICE FOR REDIRECTION ###
+        redirect_choice = input("Do you want to be redirected to ResizePixel? (Y/N): ").strip().lower()
+        if redirect_choice == 'Y':
+            webbrowser.open('https://www.resizepixel.com/') 
+        else:
+            print("You chose not to be redirected.")
 
 if __name__ == '__main__':
     print("Divider XML PC")
