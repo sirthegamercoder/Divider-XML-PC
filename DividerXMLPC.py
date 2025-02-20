@@ -3,14 +3,12 @@ import xml.etree.ElementTree as ET
 import webbrowser
 
 def validate_file_path(file_path):
-    """Check if the file path exists and is a file."""
     if not os.path.isfile(file_path):
         print(f"Error: The file {file_path} does not exist or is not a file.")
         return False
     return True
 
 def validate_xml_structure(tree):
-    """Check if the XML structure contains the expected elements."""
     root = tree.getroot()
     if root.tag != 'TextureAtlas':
         print("Error: The XML file does not have the expected root element 'TextureAtlas'.")
