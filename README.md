@@ -8,12 +8,13 @@ Divider XML PC is a Python script made to divide XML especially modifying SubTex
 
 ## How to Use : ##
 1. Press Win + R then type CMD or right-click on the start menu then select Command Prompt
-2. In CMD type cd C:\Users\user name\folder\ then enter
-3. After that type python DividerXMLPC.py then press
+2. In CMD type cd C:\Users\your user name\folder\ then enter
+3. After that type python DividerXMLPC.py then enter again
 4. Then paste the input xml file path
 5. Paste the output xml file path again
 6. Wait for the process to finish
-7. When finished just close the CMD
+7. When the process is complete you are presented with two choice to visit ResizePixel (Answer Y if PNG exist)
+8. After that close the CMD (Answer N if you don't need it)
 
 ## Instruction : ##
 ***Before doing so, make sure you have installed the latest version of Python. (if any)***
