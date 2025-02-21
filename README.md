@@ -8,7 +8,7 @@ Divider XML PC is a Python script made to divide XML especially modifying SubTex
 
 ## How to Use : ##
 1. Press Win + R then type CMD or right-click on the start menu then select Command Prompt
-2. In CMD type cd C:\Users\your user name\folder\ then enter
+2. In CMD type cd C:\path\to\your\folder then enter
 3. After that type python DividerXMLPC.py then enter again
 4. Then paste the input xml file path
 5. Paste the output xml file path again
