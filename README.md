@@ -12,9 +12,10 @@ Divider XML PC is a Python script made to divide XML especially modifying SubTex
 3. After that type python DividerXMLPC.py then enter again
 4. Then paste the input xml file path
 5. Paste the output xml file path again
-6. Wait for the process to finish
-7. When the process is complete you are presented with two choice to visit ResizePixel (Answer Y if PNG exist)
-8. After that close the CMD (Answer N if you don't need it)
+6. Enter division factor number (e.g 2)
+7. Wait for the process to finish
+8. When the process is complete you are presented with two choice to visit ResizePixel (Answer Y if PNG exist)
+9. After that close the CMD (Answer N if you don't need it)
 
 ## Instruction : ##
-***Before doing so, make sure you have installed the latest version of Python. (if any)***
+**Before doing so, make sure you have installed the latest version of Python. (if any)**
